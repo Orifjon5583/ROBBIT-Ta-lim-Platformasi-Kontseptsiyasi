@@ -1,0 +1,6 @@
+.app-wrapper { display: flex; }
+.content-container {
+    padding: 2.5rem; width: 100%; margin-left: var(--navbar-width); box-sizing: border-box;
+}
+.app-wrapper.typing-mode .navbar-container { margin-left: -250px; opacity: 0; }
+.app-wrapper.typing-mode .content-container { margin-left: 0; padding: 0; }

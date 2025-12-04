@@ -1,0 +1,9 @@
+.slider-container {
+    margin: 20px 0;
+}
+.slide-item {
+    padding: 40px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}

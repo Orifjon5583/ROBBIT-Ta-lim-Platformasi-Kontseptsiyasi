@@ -1,0 +1,36 @@
+/* 1. Karusel stillari (Tuzatilgan versiya: ~ belgisisiz) */
+@import "slick-carousel/slick/slick.css"; 
+@import "slick-carousel/slick/slick-theme.css";
+
+/* 2. Shriftlar */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* 3. Butun ilova uchun ranglar va o'lchamlar palitrasi */
+:root {
+    --primary-color: #1abc9c;
+    --primary-color-dark: #16a085;
+    --secondary-color: #2c3e50; /* Chap menyuning ko'k rangi */
+    --background-color: #f8f9fa; /* Asosiy sahifa foni */
+    --text-color: #6c757d;
+    --heading-color: #212529;
+    --light-gray: #e9ecef;
+    --white-color: #ffffff;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --border-radius: 8px;
+    --navbar-width: 250px;
+    --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+/* 4. Asosiy tana stillari */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--heading-color);
+}
